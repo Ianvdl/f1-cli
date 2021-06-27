@@ -11,10 +11,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-y",
                     "--year",
                     default="2021",
+                    type=int,
                     help="Session year")
 parser.add_argument("-n",
                     "--number",
                     default="1",
+                    type=int,
                     help="Session number")
 parser.add_argument("-o",
                     "--output",
